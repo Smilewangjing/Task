@@ -1,0 +1,134 @@
+﻿.content_box>ul {
+    margin-top:3%;
+}
+.content_box>ul>li{
+    width:90%;
+    margin-left:5%;
+    font-size:1.5em;
+}
+    .content_box>ul > li>div {
+        margin:15px 0;
+        padding:5% 2%;
+        border-radius:5px;
+        background-color:#f3f3f3;
+    }
+#info>div.img_box{
+    margin-bottom:10px;
+}
+#info > div.img_box .img_dw{
+    position:absolute;
+    width:40%;
+    left:30%;
+    text-align:center;
+    background-color:#cccccc;
+    bottom:0%;
+    
+}
+    #info > div.img_box .img_dw a {
+        font-size:0.75em;
+    }
+#info .info_an {
+    margin-bottom:10px;
+}
+#info .info_an button {
+    display:inline-block;
+    width:50%;
+    margin-left:25%;
+}
+#info .info_information>ul>li {
+    font-size:0.75em;
+}
+
+
+.row>.btn-group>.btn-group{
+   position:static
+}
+.btn-group-justified > .btn-group .dropdown-menu{
+    left:0;
+}
+.uls{
+    width:100%;
+}
+.uls li{
+    width:100%;
+    border-bottom: 1px solid #e5e5e5;
+    list-style-type: none;
+}
+ .uls li a{
+    padding-left:20px;
+    line-height: 35px;
+    color:#000;
+}
+
+#first .firstNav .rows-two  button {
+    border-radius:5px;
+}
+
+#first .task {
+    padding:5px 0;
+    margin-bottom:10px;
+}
+#first .task .task_text {
+    width:100%;
+    background-color:#FFF9EB;
+    border-radius:5px 5px 5px 5px;  
+    padding:10px 0; 
+}
+#first .task .task_text img {
+    text-align:left;
+    display:inline-block;
+    margin:10px 0 10px 10px;
+    width:20%;
+    border-radius:50%;  
+    vertical-align: top;  
+}
+#first .task .task_text div {
+    display:inline-block;
+}
+#first .task .task_text .task_text_center {
+    width:25%;
+    vertical-align: top;
+    padding-top:3%;
+}
+#first .task .task_text .task_text_center p {
+    font-size:0.65em;
+    margin-bottom:100%;
+    cursor:pointer;
+}
+#first .task .task_text .task_text_center p {
+    margin:1% 0;
+}
+#first .task .task_text .task_text_center p.p_name {
+    font-size:0.75em;
+    margin-bottom:3%;
+}
+#first .task .task_text .task_text_center p.p_title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#first .task .task_text .task_text_right {
+    width:30%;
+    margin-left:16%;
+}
+#first .task .task_text .task_text_right p {
+    font-size:0.65em;
+    padding:0;
+    margin:1% 0;
+    margin-left:-50%;
+}
+
+
+#third {
+    padding:3%;
+}
+#third .person_zl button {
+    padding:2%;
+    border-radius:3px 3px 3px 3px; 
+    border:none;  
+    cursor:pointer;
+    margin-bottom:10px;
+}
+    #third .person_zl > div {
+        margin-bottom:500px;
+    }

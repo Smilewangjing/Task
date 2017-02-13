@@ -1,0 +1,55 @@
+﻿
+/** Swiper **/
+
+/** 图片轮换 **/
+.swiper-market{ }
+.swiper-market .swiper-slide { width:100%; min-height:80px; max-height:500px;}
+.swiper-market .swiper-slide img {width:100%; max-width:100%; height:auto; }
+.swiper-market.swiper-container-horizontal > .swiper-pagination { bottom:6px;}
+.swiper-market .swiper-pagination-bullet { width:5px; height:5px; }
+
+.swiper-pagination-bullet-active { background: rgba(0,0,0,0.45);}
+
+/****/
+.inmost-main{ position:absolute; bottom:0px; left:0px; right:0px; width:100%;background:rgba(255,255,255,0.8); box-shadow:0 -2px 8px rgba(210, 210, 210, 0.3); }
+/*.inmost-main div{ color:#f7f7f7;}*/
+
+.swiper-type{ padding-left:14px; padding-right:14px; /*box-shadow:inset 0 0 10px #f9f9f9;*/}
+.swiper-type .swiper-slide { width:auto; margin:0px 1px; font-size:1em;}
+.swiper-type .swiper-slide:first-child {background:#00a9ea; color:#fff;  opacity:0.8;}
+.swiper-type .swiper-slide { display:inline-block; border-radius:4px; height:30px; line-height:30px; text-align:center; padding:0px 10px; cursor: pointer;}
+.swiper-type .swiper-slide.swiper-slide-active-click {background:#00a9ea; color:#fff; opacity:1;}
+
+.swiper-type-group{}
+
+.swiper-type-full{ box-shadow:inset 0 0 10px #f9f9f9;}
+.swiper-type-full .swiper-slide{ width:auto; margin:0px 1px; color:#333;  text-align:center; font-size:1em; cursor: pointer;}
+.swiper-type-full .swiper-slide:hover{color:#555;}
+.swiper-type-full .swiper-slide.swiper-slide-active span{ color:#f87fb6;}
+/*
+.swiper-type-full .swiper-slide:first-child span{background:#00a9ea; color:#fff; opacity:0.8;}
+.swiper-type-full .swiper-slide.active-nav span{background:#00a9ea; color:#fff; opacity:1;}*/
+.swiper-type-full .swiper-slide span{ display:inline-block; border-radius:4px; height:30px; line-height:30px;padding:0px 5px;}
+
+
+.swiper-type-full-content,
+.swiper-type-full-content .swiper-slide { min-height:300px; }
+
+
+/** owl-carousel 1.3.3 **/
+#owl-carousel{ max-height:300px; overflow:hidden;}
+#owl-carousel .owl-wrapper-outer{ margin-left: auto; margin-right: auto; position:relative;}
+#owl-carousel .owl-wrapper-outer img{ display: block; width: 100%; max-width: 100%; border: 0 none;}
+#owl-carousel .owl-controls .owl-pagination{ position:relative; z-index:5; margin-top:-30px; margin-right:10px; text-align:right; }
+#owl-carousel .owl-controls .owl-pagination span{ width:5px; height:5px; background: #fff; margin: 5px 3px;}
+/* 进度条 */
+#progressBar{ width: 100%; background: rgba(255, 255, 255, 0.2); position:absolute; top:0px; z-index:5;}
+#progressBar > div{ width: 0%; max-width: 100%; height: 4px; background: rgba(0, 0, 0, 0.1); overflow: hidden;}
+.owl-chart{ position:absolute; top:0px; left:0px; right:0px; padding:20px;}
+
+/** owl-carousel 2.0.0 **/
+.owl-carousel .owl-stage-outer{}
+.owl-carousel .owl-controls .owl-dots{ position:relative; z-index:5; margin-top:-30px; margin-right:10px; text-align:right;}
+.owl-carousel .owl-controls .owl-dots .owl-dot span{width:5px; height:5px; background: #fff; margin: 5px 3px; opacity: 0.5;}
+.owl-carousel .owl-controls .owl-dots .owl-dot.active span{opacity: 0.5;}
+

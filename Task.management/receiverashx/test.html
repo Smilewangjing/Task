@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+    <script src="../assets/framework/jquery-2.1.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                url: "ProcessReceiver.ashx",
+                method: "POST",
+                data: {
+                   flag:"all",
+                   //flag: "unfinshed",
+                   //flag:"finshed",
+                    userID: 5,
+                    duration: 7,
+                    //duration:3,
+                    //duration:7
+                },
+                success: function (data) {
+                    if (data.length == 0) {
+                        console.log("没有数据");
+                    }
+                    else {
+                        JSON.parse(data).forEach(function (item, index) {
+                            console.log(item);
+                        })
+                    }
+                    
+                    //console.log(data);
+                }
+            })
+        })
+    </script>
+<body>
+
+</body>
+</html>

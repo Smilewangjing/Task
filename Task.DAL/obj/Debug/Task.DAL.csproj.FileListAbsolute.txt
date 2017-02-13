@@ -1,0 +1,7 @@
+E:\12.25\Demo\Task\Task.DAL\bin\Debug\Task.DAL.dll
+E:\12.25\Demo\Task\Task.DAL\bin\Debug\Task.DAL.pdb
+E:\12.25\Demo\Task\Task.DAL\bin\Debug\Task.Model.dll
+E:\12.25\Demo\Task\Task.DAL\bin\Debug\Task.Model.pdb
+E:\12.25\Demo\Task\Task.DAL\obj\Debug\Task.DAL.csprojResolveAssemblyReference.cache
+E:\12.25\Demo\Task\Task.DAL\obj\Debug\Task.DAL.dll
+E:\12.25\Demo\Task\Task.DAL\obj\Debug\Task.DAL.pdb

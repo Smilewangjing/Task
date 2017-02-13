@@ -1,0 +1,5 @@
+E:\12.25\Demo\Task\Task.Model\bin\Debug\Task.Model.dll
+E:\12.25\Demo\Task\Task.Model\bin\Debug\Task.Model.pdb
+E:\12.25\Demo\Task\Task.Model\obj\Debug\Task.Model.dll
+E:\12.25\Demo\Task\Task.Model\obj\Debug\Task.Model.pdb
+E:\12.25\Demo\Task\Task.Model\obj\Debug\Task.Model.csprojResolveAssemblyReference.cache

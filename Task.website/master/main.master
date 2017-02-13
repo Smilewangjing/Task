@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="master_main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    <link rel="stylesheet" href="frameworks/bootstrap-3.3.0-dist/css/bootstrap.css" />
+    <link href="frameworks/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style/index.css" />
+    <script src="frameworks/jquery-1.8.3/jquery.min.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/page1.js"></script>
+    <script src="js/index.js"></script> 
+
+    <asp:ContentPlaceHolder id="head_main" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder_main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>

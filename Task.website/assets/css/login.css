@@ -1,0 +1,144 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    line-height:80px;
+    color:#fff;
+    text-align:center;
+}
+ul li{
+    list-style:none;
+}
+ul li img{
+    min-width:300px;
+    max-width:100%;
+    min-height:1000px;
+}
+body {
+    min-width:300px;
+    max-width:100%;
+    background: #00c3b6;
+    background-size:100%;
+}
+.register-box{
+    width: 340px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.register-box1{
+    width: 340px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin:0 auto;
+    margin-top:-405px;
+}
+#content{
+    width:100%;
+    height:633px;
+    overflow:hidden;
+}
+.reg-slogan {
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color:#666;
+    padding-left:40px;
+    margin-top:-15px;
+}
+.center{
+    padding:0px 40px 10px 40px;
+    margin-top:-15px;
+}
+.one{
+    margin-top:20px;
+}
+.left{
+    display:inline-block;
+    width:50%;
+}
+.right{
+    display:inline-block;
+    vertical-align:top;
+    margin-top:20px;
+}
+.right span{
+    color:#222;
+    font-size:12px;
+    margin-left:7px;
+}
+.toggle{
+    margin-left:215px;
+    margin-top:20px;
+}
+.toggle span{
+    color:#666;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px auto;
+}
+.toggle i{
+    color: #ea4c89;
+    margin-right: 5px;
+}
+.safe{
+   color:#666;
+    margin-left:40px;
+}
+.safe .lost{
+    margin-left:90px;
+    color:#666;
+}
+.submit {
+    background-color: #00c3b6;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.but{
+    padding:0px 40px 10px 40px;
+}
+#login{
+    -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;    
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;}
+#reg{
+    -webkit-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;    
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;}
+			
+.log .login {
+	    -webkit-transform: rotateY(0deg);
+	    transform: rotateY(0deg);
+	    z-index: 1;
+	    display: block;
+    }
+.log .reg{
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    z-index: 0;
+    display: block;
+    }
+ .register .login{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 0;
+    display: block;
+    }
+.register .reg{
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 1;
+    display: block;
+    }

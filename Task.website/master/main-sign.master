@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master/main.master" AutoEventWireup="true" CodeFile="main-sign.master.cs" Inherits="master_main_sign" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head_main" Runat="Server">
+    //css js
+
+    <style type="text/css">
+
+    </style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_main" Runat="Server">
+    
+    //Login
+    <div>
+
+    </div>
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    <div>
+
+    </div>
+
+</asp:Content>
+

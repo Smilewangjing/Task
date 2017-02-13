@@ -1,0 +1,155 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.BLL", "Task.BLL\Task.BLL.csproj", "{E06050EE-7233-4663-BD2B-2ABE30E799BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.DAL", "Task.DAL\Task.DAL.csproj", "{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Model", "Task.Model\Task.Model.csproj", "{645D654E-8A04-4942-9385-674EEF135DF1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "task.website", "http://localhost:14599", "{18B47546-5011-4887-B651-FAED40C76E75}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e06050ee-7233-4663-bd2b-2abe30e799bd}|Task.BLL.dll;{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}|Task.DAL.dll;{645D654E-8A04-4942-9385-674EEF135DF1}|Task.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14599"
+		Debug.AspNetCompiler.PhysicalPath = "task.website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14599\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14599"
+		Release.AspNetCompiler.PhysicalPath = "task.website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14599\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "task.website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "task.management", "http://localhost:1317", "{D15F8AC4-4F37-4EDD-9D5F-B129107C9DE0}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e06050ee-7233-4663-bd2b-2abe30e799bd}|Task.BLL.dll;{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}|Task.DAL.dll;{645D654E-8A04-4942-9385-674EEF135DF1}|Task.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1317"
+		Debug.AspNetCompiler.PhysicalPath = "task.management\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1317\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1317"
+		Release.AspNetCompiler.PhysicalPath = "task.management\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1317\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "task.management\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "task.mobile", "http://localhost:1270", "{C6293225-EB87-4783-B5FC-D5B631DA9B37}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{e06050ee-7233-4663-bd2b-2abe30e799bd}|Task.BLL.dll;{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}|Task.DAL.dll;{645D654E-8A04-4942-9385-674EEF135DF1}|Task.Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1270"
+		Debug.AspNetCompiler.PhysicalPath = "task.mobile\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1270\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1270"
+		Release.AspNetCompiler.PhysicalPath = "task.mobile\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1270\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "task.mobile\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.215:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Task.BLL\\Task.BLL.csproj
+		SccProjectName1 = Task.BLL
+		SccLocalPath1 = Task.BLL
+		SccProjectUniqueName2 = Task.DAL\\Task.DAL.csproj
+		SccProjectName2 = Task.DAL
+		SccLocalPath2 = Task.DAL
+		SccProjectUniqueName3 = Task.Model\\Task.Model.csproj
+		SccProjectName3 = Task.Model
+		SccLocalPath3 = Task.Model
+		SccWebProject4 = true
+		SccProjectUniqueName4 = http://localhost:14599
+		SccProjectName4 = task.website
+		SccLocalPath4 = task.website
+		SccProjectEnlistmentChoice4 = 2
+		SccWebProject5 = true
+		SccProjectUniqueName5 = http://localhost:1317
+		SccProjectName5 = task.management
+		SccLocalPath5 = task.management
+		SccProjectEnlistmentChoice5 = 2
+		SccWebProject6 = true
+		SccProjectUniqueName6 = http://localhost:1270
+		SccProjectName6 = task.mobile
+		SccLocalPath6 = task.mobile
+		SccProjectEnlistmentChoice6 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E06050EE-7233-4663-BD2B-2ABE30E799BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06050EE-7233-4663-BD2B-2ABE30E799BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06050EE-7233-4663-BD2B-2ABE30E799BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06050EE-7233-4663-BD2B-2ABE30E799BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AA14FD-B7AF-445D-A436-5BD2DC263BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645D654E-8A04-4942-9385-674EEF135DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645D654E-8A04-4942-9385-674EEF135DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645D654E-8A04-4942-9385-674EEF135DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645D654E-8A04-4942-9385-674EEF135DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B47546-5011-4887-B651-FAED40C76E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B47546-5011-4887-B651-FAED40C76E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B47546-5011-4887-B651-FAED40C76E75}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B47546-5011-4887-B651-FAED40C76E75}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D15F8AC4-4F37-4EDD-9D5F-B129107C9DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15F8AC4-4F37-4EDD-9D5F-B129107C9DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15F8AC4-4F37-4EDD-9D5F-B129107C9DE0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15F8AC4-4F37-4EDD-9D5F-B129107C9DE0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C6293225-EB87-4783-B5FC-D5B631DA9B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6293225-EB87-4783-B5FC-D5B631DA9B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6293225-EB87-4783-B5FC-D5B631DA9B37}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6293225-EB87-4783-B5FC-D5B631DA9B37}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

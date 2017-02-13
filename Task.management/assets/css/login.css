@@ -1,0 +1,13 @@
+*{margin:0;padding:0}
+body{margin:0;padding:0;}
+input{margin-top:5px;}
+.nav{background-color:#F0F0F0;height:40px;width:100%;}
+.nav p{display:inline-block;margin-top:5px;margin-left:80%;font-size:14px;}
+.nav p span:hover{cursor:pointer;text-decoration:underline;color:red;}
+.aside{border-right:solid 1px black;width:13%;height:590px;float:left;margin-left:0;}
+.aside p{height:30px;width:100%;margin-top:15px;border-bottom:solid 1px black;text-align:center}
+.aside p:hover{cursor:pointer;color:orange}
+.hidden-login{z-index:10;position:absolute;top:200px;left:500px;display:none;width:500px;}
+.hidden-login p{border:solid 1px black;border-radius:5px;display:inline-block;margin-top:5px;width:100px;height:25px;text-align:center}
+.hidden-login p:hover{cursor:pointer}
+.text{float:left;margin-right:0;width:1170px;height:590px;}

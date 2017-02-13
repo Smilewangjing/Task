@@ -1,0 +1,170 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+.myNavbar {
+    margin-right: 0;
+    padding-right: 10px;
+}
+.myNavbar a {
+    color: rgb(248,227,228);
+    font-size:1.3rem;
+}
+.myNavbar a:hover {
+    color: rgb(248,227,228);
+}
+.myLeftCol >li>ul>li {
+    text-align:center;
+}
+.nav > li > a:focus{
+    background:rgb(209,62,68);
+    color: rgb(248,227,228);
+}
+.nav .open>a {
+    background:rgb(209,62,68);
+    color: rgb(248,227,228);
+}
+.myNavbar>li>a:hover {
+    background-color: rgb(209,62,68) ;
+    color: rgb(248,227,228);
+}
+.navbar-collapse {
+    padding-bottom: 1%;
+}
+.nav-title {
+    padding: 1% 0;
+    background-color: rgb(209,62,68);
+    color: rgb(248,227,228);
+}
+.nav-title span {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 50px;
+    color: rgb(248,227,228);
+}
+.dropdown-menu {
+    min-width: 120px;
+    text-align: center;
+}
+.inNav {
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+}
+/*以上css可不用，仅作为展示外观样式*/
+.myLeftCol {
+    background-color: rgb(50,50,58);
+    padding: 0 !important;
+    height: 558px;
+}
+.list{
+    width : 100%;
+}
+.list ul{
+    list-style: none;
+}
+.list>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.list>ul>li>p>i ,.list>ul>li>p>span  {
+    color:rgb(248,227,228);
+    font-size:1.5rem;
+}
+.list>ul>li>ul>li>p {
+    font-size:1.5rem;
+}
+.list>ul>li>ul>p>i ,.list>ul>li>ul>p>span {
+    color:rgb(248,227,228);
+    font-size:1.5rem;
+}
+.list>ul>li p[class=title]{
+    width      : 100%;
+    padding-left: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    background-color: rgb(50,50,58);
+    color: rgb(250,231,235);
+    height     : auto;
+    line-height: 40px;
+    border     : none;
+    position   : relative;
+    font-size  : 18px;
+}
+.list>ul>li p[class=title]>span{
+    position: absolute;
+    right: 10%;
+}
+.list-se{
+    overflow: hidden;
+    display: none;
+}
+.list-se>p{
+    background: rgb(215,91,93);
+    color:white;
+}
+.list-se>li{
+    position: relative;
+    right   : -100%;
+    -webkit-transition: right .5s;
+    -moz-transition   : right .5s;
+    -o-transition     : right .5s;
+    transition        : right .5s;
+}
+.list-se>li>p{
+    color       : #f0f0f0;
+    height      : 40px;
+    -webkit-box-sizing :border-box;
+    box-sizing :border-box;
+    text-align: center;
+    line-height : 40px;
+    margin-bottom: 0;
+}
+.list-se>li>p:hover{
+    border-color: white;
+    background: rgb(72,71,76);
+}
+.active2 {
+    background-color: #FA787E;
+}
+.aaa {
+            margin-top:20px;
+            width:60%;
+            margin-left:20%;
+        }
+.aa {
+     width:50%;
+     margin:0 auto;
+}
+.left {
+    float:left;
+    margin-left:20px;
+    width:400px;
+    margin-top:20px;
+}
+.p_a {
+    width:80%;
+    margin:0 auto;
+    overflow:hidden;
+}
+.p_b {
+    margin:0 auto;
+    width:80%;
+    padding:20px;
+}
+#updateOneSubmit {
+    margin:20px 0 20px 40%;
+}

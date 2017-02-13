@@ -1,0 +1,9 @@
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.BLL.dll
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.BLL.pdb
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.DAL.dll
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.Model.dll
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.DAL.pdb
+E:\12.25\Demo\Task\Task.BLL\bin\Debug\Task.Model.pdb
+E:\12.25\Demo\Task\Task.BLL\obj\Debug\Task.BLL.csprojResolveAssemblyReference.cache
+E:\12.25\Demo\Task\Task.BLL\obj\Debug\Task.BLL.dll
+E:\12.25\Demo\Task\Task.BLL\obj\Debug\Task.BLL.pdb

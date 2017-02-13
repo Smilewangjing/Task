@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master/main.master" AutoEventWireup="true" CodeFile="main-sign.master.cs" Inherits="master_main_sign" %>
+
+<%--登录模版--%>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head_main" Runat="Server">
+    
+    <style type="text/css">
+        .navbar-fixed-wrapper{ padding-top:40px; padding-bottom:40px;}
+
+        .inmost-title{ margin-left:52px; margin-right:52px; position:absolute; left:0px; right:0px;/* padding-top:8px;*/}
+        .navbar-Left, .navbar-More{ position:absolute; top:0px; margin:0px !important; }
+        .navbar-Left{ left:0px; padding-left:0px; padding-right:0px; width:50px;}
+        .navbar-More{ right:0px; width:50px;}
+    </style>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_main" Runat="Server">
+
+	<!-- TOP NAV -->
+	<header id="topNav" class="topNav">
+        <nav class="navbar navbar-default navbar-fixed-top border-bottom-none bg-white height-40 min-height-40">
+            <div class="container position-relative">
+                <div class="navbar-header text-center">
+                    <%--<a id="navbar-Left" class="navbar-brand navbar-Left padding-top-bottom-0 line-height-40 height-40" href="javascript:;" onclick="history.go(-1);">
+                        <i class="icon-arrow-left"></i>
+                    </a>--%>
+                    <script type="text/javascript">
+                        //var navbarBack = $("#navbar-Left");
+                    </script>
+                    <a id="inmost-title" class="inmost-title" href="#" title="爱啵秀">
+                        
+                    </a>
+                    <a id="navbar-Right" class="navbar-brand navbar-More padding-top-bottom-0 line-height-40 height-40" href="/mobile/index.aspx" title="Home">
+                        <i class="fa fa-home fsize-1-2"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+	<!-- WRAPPER -->
+	<div id="wrapper" class="wrapper navbar-fixed-wrapper">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        
+	<!-- FOOTER -->
+	<footer id="footer" class="footer">
+        <nav class="navbar navbar-default navbar-fixed-bottom bg-white border-top-none" style="min-height:40px;">
+            <div class="container text-center">
+                <span style="line-height:40px;" class="fsize-0-11"><i class="fa fa-copyright"></i> 2015-2016 团趣-InMost 版权所有</span>
+            </div>
+        </nav>
+    </footer>
+
+</asp:Content>
+
